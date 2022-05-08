@@ -1,0 +1,68 @@
+:root{
+    --primary-color: blue;
+    --border-radius:50%;
+    --bor-radius-1: 20px;
+    --transition:All 300ms ease;
+    --pad-top:10px;
+    --btn-color: blue;
+    --background-color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    box-sizing: border-box;
+    width: 100%;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+}
+small{
+    font-size: 5px;
+}
+.text-muted{
+    color: gainsboro;
+}
+.container1{
+   background: white;
+}
+.container1 .slide{
+    display: flex;
+    flex-direction: column;
+}
+.container1 .slide .grid{
+    display: flex;
+    padding: 2px;
+    box-sizing: content-box;
+    background: bisque;
+
+}
+.container1 .slide .grid img{
+    width: 120vh;
+    height:80vh;
+   
+
+}
+.container1 .slide .grids{
+    display: flex;
+    margin-top: 10px;
+    
+    
+    
+}
+.container1 .slide .grids .gallary{
+    box-sizing: border-box;
+    margin-left: 20px;
+    background-color: white ;
+    border-radius: 5px;
+    pad: 10px;
+}
+.container1 .slide .grids .gallary img{
+    width: 100%;
+    border-radius: 10px;
+}
+
